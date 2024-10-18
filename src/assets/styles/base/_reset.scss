@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--white);
+	color: var(--black-primary)
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.container {
+	width: 100%;
+	max-width: 120rem;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+button {
+	padding: 0;
+	border: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: var(--black-primary);
+}
